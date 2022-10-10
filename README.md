@@ -74,3 +74,10 @@
 2. [add to routes , ts , html , import reactive forms module]
 3. Add login Api [json , jsonwebtoken , test using postman]
 4. generate user service [user model , user subject , login method , user urls]
+
+## login page components
+
+1. Input Container
+2. Input Validation
+3. Text Input
+4. Default
