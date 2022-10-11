@@ -81,3 +81,12 @@
 2. Input Validation
 3. Text Input
 4. Default
+
+## Connecting to mongo
+
+1. connect api to mongodb atlas
+2. apis to routers
+3. create .env file
+4. Install (mongoose , dotenv , bcrypt , jsonwebtoken , express-async-handler)
+5. Connect to MongoDB Atlas
+6. use mongo instead of data.ts in apis
