@@ -1,4 +1,5 @@
 import dotenv from 'dotenv';
+require("dotenv").config();
 dotenv.config();
 
 import express from "express";
