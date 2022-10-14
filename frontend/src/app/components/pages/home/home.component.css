@@ -260,6 +260,12 @@ font-size: 1rem;
   border-radius:.5rem ;
 }
 
+
+.food-name{
+  padding: 1rem;
+  opacity: 0.6;
+}
+
 /*gvjnivgdbofmd;jmbgjldmbdfmbodmjbldnfibudipvfsoxdfvjidfbdfbdfbfdfb*/
 *{
   margin:0; padding:0;
@@ -362,7 +368,7 @@ font-size: 1rem;
   visibility: visibile;
 }
 
-  .box-content .icon, .box-content .icon--add, .box-content .icon--download, .box-content .icon--likes {
+  .box-content .icon, .box-content .icon--add, .box-content .icon--likes {
   border: 1px solid #fff;
   width: 60px;
   height: 32px;
@@ -377,8 +383,9 @@ font-size: 1rem;
 }
 
 .btm-r8 .icon--download{
-  margin: 1rem;
+  margin: 1.5rem;
   margin-bottom: 1.3rem;
+  opacity: 0.6;
 
 }
 

@@ -46,8 +46,8 @@
             <a routerLink="/food/{{ food.id }}">
               <img [src]="food.imageUrl" [alt]="food.name" />
               <div class="box-content">
+                <div class="food-name">{{ food.name }}</div>
                 <div class="box-content__upper">
-                  <div class="food-name">{{ food.name }}</div>
                   <div class="icon--likes">
                     <i class="fa fa-heart"></i>
                     <p>682</p>
@@ -56,14 +56,14 @@
                     <i class="fa fa-plus"></i>
                   </div>
                 </div>
-                <div class="box-content__lower">
+                <!-- <div class="box-content__lower">
                   <div class="user">
                     <div class="user__avatar">
                       <img src="img/colette.jpg" alt="" />
                     </div>
                     <div class="user__name"><p>Christine Danial</p></div>
                   </div>
-                </div>
+                </div> -->
                 <div class="btm-r8">
                   <div class="icon--download">
                     {{ food.price | currency }}

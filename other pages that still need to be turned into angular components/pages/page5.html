@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <!--Font awesome-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!--Font awesome-->
+  </head>
+  <body>
+    <!--Container Starts Here-->
+    <div class="pg5-container">
+      <div class="share"><h3>Share a Post</h3></div>
+      <p>
+        *Please enter the required information below and upload high resolution
+        images for better posting experience
+      </p>
+
+      <form action="">
+        <div class="input">
+          <p>Post Title</p>
+          <input type="text" placeholder="" id="input" required />
+          <div class="close" id="cancel">
+            <i class="fa-solid fa-xmark fa-2x"></i>
+          </div>
+          <p class="note">* Space needs to be filled</p>
+        </div>
+
+        <div class="input">
+          <p>Meal Category ( Optional )</p>
+          <input type="text" placeholder="" id="input2" />
+          <div class="close" id="cancel-meal-category">
+            <i class="fa-solid fa-xmark fa-2x"></i>
+          </div>
+        </div>
+
+        <div class="input">
+          <p>Description ( Optional )</p>
+          <textarea
+            maxlength="10"
+            name=""
+            placeholder=""
+            id="description"
+            cols="30"
+            rows="10"
+          ></textarea>
+          <div class="close" id="cancel-description">
+            <i class="fa-solid fa-xmark fa-2x"></i>
+          </div>
+        </div>
+        <div class="left-let">
+          <p id="left-letters">10 Letter Left</p>
+        </div>
+      </form>
+      <div class="post-settings-wrapper">
+        <div class="post-settings">
+          <span id="info">Chief Rating</span>
+          <div class="stars">
+            <i class="fa-solid fa-star fa-2x"></i>
+            <i class="fa-solid fa-star fa-2x"></i>
+            <i class="fa-solid fa-star fa-2x"></i>
+            <i class="fa-solid fa-star fa-2x"></i>
+            <i class="fa-solid fa-star fa-2x"></i>
+          </div>
+        </div>
+
+        <div class="post-settings">
+          <span id="info">Turn off Commenting</span>
+          <!-- Rounded switch -->
+          <label class="switch">
+            <input type="checkbox" />
+            <span class="slider round"></span>
+          </label>
+        </div>
+
+        <div class="post-settings">
+          <span id="info">Upload Images</span>
+          <button class="btn">Browse</button>
+        </div>
+      </div>
+
+      <div class="row" id="row">
+        <img src="img/1.png" alt="" />
+        <img src="img/2.png" alt="" />
+        <img src="img/3.png" alt="" />
+        <img src="img/1.png" alt="" />
+        <img src="img/2.png" alt="" />
+        <img src="img/3.png" alt="" />
+        <img src="img/1.png" alt="" />
+        <img src="img/2.png" alt="" />
+        <img src="img/3.png" alt="" />
+        <img src="img/1.png" alt="" />
+        <img src="img/3.png" alt="" />
+      </div>
+      <div class="scroll-btns">
+        <button id="slideBack" class="btn" type="button">Prev</button>
+        <button id="slide" class="btn" type="button">Next</button>
+      </div>
+      <p id="picture-count">images had been uploaded successfully</p>
+
+      <div class="buttons">
+        <button class="btn" id="discard">Discard</button>
+        <button class="btn">Share Post</button>
+      </div>
+    </div>
+    <!--Container ends Here-->
+    <script src="js/script.js"></script>
+  </body>
+</html>

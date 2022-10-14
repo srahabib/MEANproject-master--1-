@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--Font awesome-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!--Font awesome-->
+
+    <!--Animated like button-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://demo.plantpot.works/assets/css/normalize.css"
+    />
+    <link rel="stylesheet" href="https://use.typekit.net/opg3wle.css" />
+
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+    <!-------------linking style sheet here ---------------------->
+    <link rel="stylesheet" href="css/page6.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="post-container">
+      <div class="pg6-wrapper">
+        <div class="post-title">
+          <span class="pg-6-fonttheme"
+            >White Sause Pasta with meat and Juice</span
+          >
+          <!-- <span class="pg6-stars">
+            <i class="fa-solid fa-star fa-xl"></i>
+            <i class="fa-solid fa-star fa-xl"></i>
+            <i class="fa-solid fa-star fa-xl"></i>
+            <i class="fa-solid fa-star fa-xl"></i>
+            <i class="fa-solid fa-star fa-xl"></i>
+          </span> -->
+          <span class="pg6-stars">
+            <input type="checkbox" id="st1" class="s1" value="1" />
+            <label for="st1"></label>
+            <input type="checkbox" id="st2" value="2" />
+            <label for="st2"></label>
+            <input type="checkbox" id="st3" value="3" />
+            <label for="st3"></label>
+            <input type="checkbox" id="st4" value="4" />
+            <label for="st4"></label>
+            <input type="checkbox" id="st5" value="5" />
+            <label for="st5"></label>
+          </span>
+        </div>
+
+        <div class="top">
+          <div class="profilewithname">
+            <img class="pfp" src="img/icon.png" alt="" />
+            <div class="user-name-div">
+              <p class="user-name">Christine Danial</p>
+            </div>
+          </div>
+          <span><i class="fa-solid fa-ellipsis-vertical fa-2x"></i></span>
+        </div>
+
+        <div class="pg6-container">
+          <!-------------------------------------------------Swiper section Starts here ---------------------------------------------->
+          <div
+            class="swiper mySwiper"
+            style="--swiper-pagination-color: #f2a16b"
+          >
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="img/brooke-lark--F_5g8EEHYE-unsplash.png" />
+              </div>
+              <div class="swiper-slide">
+                <img src="img/brooke-lark--F_5g8EEHYE-unsplash.png" />
+              </div>
+              <div class="swiper-slide">
+                <img src="img/brooke-lark--F_5g8EEHYE-unsplash.png" />
+              </div>
+              <div class="swiper-slide">
+                <img src="img/brooke-lark--F_5g8EEHYE-unsplash.png" />
+              </div>
+              <div class="swiper-slide">
+                <img src="img/brooke-lark--F_5g8EEHYE-unsplash.png" />
+              </div>
+              <div class="swiper-slide">
+                <img src="img/brooke-lark--F_5g8EEHYE-unsplash.png" />
+              </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+        <!-------------------------------------------------Swiper Ends here ------------------------------------------------------->
+
+        <!-------------------------------------------------post stats and caption here -------------------------------------------->
+        <div class="bottom">
+          <div class="clout">
+            <div class="stats">
+              <p>50</p>
+              <!-- <span><i class="fa-solid fa-heart"></i></span> -->
+              <!-- <span id="heart-container"> -->
+              <div class="heart-like-button"></div>
+              <!-- </span> -->
+              <p>20</p>
+              <p><i class="fa-solid fa-message"></i></p>
+              <p><i class="fa-solid fa-share-nodes"></i></p>
+            </div>
+            <p class="post-date">posted 5 days ago</p>
+            <p>
+              Surprised by this delicious plate , accompanied by those yummy
+              meat parts and the fresh apple juice there
+              <a href="">@YummyRestaurantEG</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-------------------------------------------------add a Comment section------------------------------------------------------->
+
+    <section class="Comments-section">
+      <p class="pg-6-fonttheme">Comments</p>
+
+      <div class="pfpandtextarea">
+        <img class="pfp" src="img/icon.png" alt="" />
+
+        <div class="post-a-comment">
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+            placeholder=" Write a comment..."
+          ></textarea>
+        </div>
+      </div>
+      <div class="comment-button-div">
+        <button class="comment-btn">Post Comment</button>
+      </div>
+      <div class="breakline"></div>
+    </section>
+
+    <!-------------------------------------------------Replies section first comment------------------------------------------------------->
+
+    <div class="container">
+      <div class="comment__container opened" id="first-comment">
+        <div class="comment__card">
+          <img class="pfp" src="img/icon.png" alt="" />
+
+          <h3 class="comment__title" id="u-name">Name</h3>
+          <p class="post-date">30 minutes ago</p>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum
+            eaque itaque sit tempora officiis, quisquam atque? Impedit
+            dignissimos error laudantium!
+          </p>
+          <div class="comment__card-footer">
+            <div id="green" class="btn_up" onclick="myFunction(this)">
+              <i class="fa-solid fa-thumbs-up"></i> 123
+            </div>
+            <div id="red" class="btn_down" onclick="myFunction(this)">
+              <i class="fa-solid fa-thumbs-down"></i> 23
+            </div>
+            <div id="reply-btn">Reply</div>
+            <div class="show-replies">Show Replies(2)</div>
+          </div>
+        </div>
+        <div
+          class="comment__container"
+          dataset="first-comment"
+          id="first-reply"
+        >
+          <div class="comment__card">
+            <img class="pfp" src="img/icon.png" alt="" />
+            <h3 class="comment__title" id="u-name">Name</h3>
+            <p class="post-date">30 minutes ago</p>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Voluptatum eaque itaque sit tempora officiis, quisquam atque?
+              Impedit dignissimos error laudantium!
+            </p>
+            <div class="comment__card-footer">
+              <div id="green"><i class="fa-solid fa-thumbs-up"></i> 123</div>
+              <div id="red"><i class="fa-solid fa-thumbs-down"></i> 23</div>
+              <div id="reply-btn">Reply</div>
+              <div class="show-replies">Show Replies(1)</div>
+            </div>
+          </div>
+          <div
+            class="comment__container"
+            dataset="first-reply"
+            id="first-first-reply"
+          >
+            <div class="comment__card">
+              <img class="pfp" src="img/icon.png" alt="" />
+              <h3 class="comment__title" id="u-name">Name</h3>
+              <p class="post-date">30 minutes ago</p>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Voluptatum eaque itaque sit tempora officiis, quisquam atque?
+                Impedit dignissimos error laudantium!
+              </p>
+              <div class="comment__card-footer">
+                <div id="green"><i class="fa-solid fa-thumbs-up"></i> 123</div>
+                <div id="red"><i class="fa-solid fa-thumbs-down"></i> 23</div>
+                <div id="reply-btn">Reply</div>
+                <div class="show-replies">Show Replies(1)</div>
+              </div>
+            </div>
+            <div class="comment__container" dataset="first-first-reply">
+              <div class="comment__card">
+                <img class="pfp" src="img/icon.png" alt="" />
+                <h3 class="comment__title" id="u-name">Name</h3>
+                <p class="post-date">30 minutes ago</p>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Voluptatum eaque itaque sit tempora officiis, quisquam atque?
+                  Impedit dignissimos error laudantium!
+                </p>
+                <div class="comment__card-footer">
+                  <div id="green">
+                    <i class="fa-solid fa-thumbs-up"></i> 123
+                  </div>
+                  <div id="red"><i class="fa-solid fa-thumbs-down"></i> 23</div>
+                  <div id="reply-btn">Reply</div>
+                  <div class="show-replies">Show Replies(0)</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="comment__container" dataset="first-comment">
+          <div class="comment__card">
+            <img class="pfp" src="img/icon.png" alt="" />
+            <h3 class="comment__title" id="u-name">Name</h3>
+            <p class="post-date">30 minutes ago</p>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Voluptatum eaque itaque sit tempora officiis, quisquam atque?
+              Impedit dignissimos error laudantium!
+            </p>
+            <div class="comment__card-footer">
+              <div id="green"><i class="fa-solid fa-thumbs-up"></i> 123</div>
+              <div id="red"><i class="fa-solid fa-thumbs-down"></i> 23</div>
+              <div id="reply-btn">Reply</div>
+              <div class="show-replies">Show Replies (0)</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-------------------------------------------------Replies section Ends here--------------------------------------------------->
+    <!-------------------------------------------------reply box here-------------------------------------------------------------->
+    <div class="replying-cont">
+      <div class="comment__card" id="reply-box">
+        <div class="pfpandtextarea">
+          <img class="pfp" src="img/icon.png" alt="" />
+
+          <div class="post-a-comment">
+            <textarea
+              name=""
+              id=""
+              cols="30"
+              rows="10"
+              placeholder=" Write a reply..."
+            ></textarea>
+          </div>
+        </div>
+
+        <div class="comment-button-div">
+          <button class="comment-btn">Post Reply</button>
+        </div>
+      </div>
+    </div>
+    <!--------------------------------------reply box ends here-------------------------------------------------------------->
+
+    <!-----------------Replies section second comment duplication for page view purposes----------------------------------------->
+
+    <div class="container">
+      <div class="comment__container opened" id="first-comment">
+        <div class="comment__card">
+          <img class="pfp" src="img/icon.png" alt="" />
+
+          <h3 class="comment__title" id="u-name">Name</h3>
+          <p class="post-date">30 minutes ago</p>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum
+            eaque itaque sit tempora officiis, quisquam atque? Impedit
+            dignissimos error laudantium!
+          </p>
+          <div class="comment__card-footer">
+            <div id="green" onclick="myFunction(this)">
+              <i class="fa-solid fa-thumbs-up"></i> 123
+            </div>
+            <div id="red" onclick="myFunction(this)">
+              <i class="fa-solid fa-thumbs-down"></i> 23
+            </div>
+            <div id="reply-btn">Reply</div>
+            <div class="show-replies">Show Replies(2)</div>
+          </div>
+        </div>
+        <div
+          class="comment__container"
+          dataset="first-comment"
+          id="first-reply"
+        >
+          <div class="comment__card">
+            <img class="pfp" src="img/icon.png" alt="" />
+            <h3 class="comment__title" id="u-name">Name</h3>
+            <p class="post-date">30 minutes ago</p>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Voluptatum eaque itaque sit tempora officiis, quisquam atque?
+              Impedit dignissimos error laudantium!
+            </p>
+            <div class="comment__card-footer">
+              <div id="green"><i class="fa-solid fa-thumbs-up"></i> 123</div>
+              <div id="red"><i class="fa-solid fa-thumbs-down"></i> 23</div>
+              <div id="reply-btn">Reply</div>
+              <div class="show-replies">Show Replies(1)</div>
+            </div>
+          </div>
+          <div
+            class="comment__container"
+            dataset="first-reply"
+            id="first-first-reply"
+          >
+            <div class="comment__card">
+              <img class="pfp" src="img/icon.png" alt="" />
+              <h3 class="comment__title" id="u-name">Name</h3>
+              <p class="post-date">30 minutes ago</p>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Voluptatum eaque itaque sit tempora officiis, quisquam atque?
+                Impedit dignissimos error laudantium!
+              </p>
+              <div class="comment__card-footer">
+                <div id="green"><i class="fa-solid fa-thumbs-up"></i> 123</div>
+                <div id="red"><i class="fa-solid fa-thumbs-down"></i> 23</div>
+                <div id="reply-btn">Reply</div>
+                <div class="show-replies">Show Replies(1)</div>
+              </div>
+            </div>
+            <div class="comment__container" dataset="first-first-reply">
+              <div class="comment__card">
+                <img class="pfp" src="img/icon.png" alt="" />
+                <h3 class="comment__title" id="u-name">Name</h3>
+                <p class="post-date">30 minutes ago</p>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Voluptatum eaque itaque sit tempora officiis, quisquam atque?
+                  Impedit dignissimos error laudantium!
+                </p>
+                <div class="comment__card-footer">
+                  <div id="green">
+                    <i class="fa-solid fa-thumbs-up"></i> 123
+                  </div>
+                  <div id="red"><i class="fa-solid fa-thumbs-down"></i> 23</div>
+                  <div id="reply-btn">Reply</div>
+                  <div class="show-replies">Show Replies(0)</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="comment__container" dataset="first-comment">
+          <div class="comment__card">
+            <img class="pfp" src="img/icon.png" alt="" />
+            <h3 class="comment__title" id="u-name">Name</h3>
+            <p class="post-date">30 minutes ago</p>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Voluptatum eaque itaque sit tempora officiis, quisquam atque?
+              Impedit dignissimos error laudantium!
+            </p>
+            <div class="comment__card-footer">
+              <div id="green"><i class="fa-solid fa-thumbs-up"></i> 123</div>
+              <div id="red"><i class="fa-solid fa-thumbs-down"></i> 23</div>
+              <div id="reply-btn">Reply</div>
+              <div class="show-replies">Show Replies (0)</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-------------------------------------------------Replies section Ends here--------------------------------------------------->
+
+    <!-----------------Replies section third comment duplication for page view purposes----------------------------------------->
+
+    <div class="container">
+      <div class="comment__container opened" id="first-comment">
+        <div class="comment__card">
+          <img class="pfp" src="img/icon.png" alt="" />
+
+          <h3 class="comment__title" id="u-name">Name</h3>
+          <p class="post-date">30 minutes ago</p>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum
+            eaque itaque sit tempora officiis, quisquam atque? Impedit
+            dignissimos error laudantium!
+          </p>
+          <div class="comment__card-footer">
+            <div id="green"><i class="fa-solid fa-thumbs-up"></i> 123</div>
+            <div id="red"><i class="fa-solid fa-thumbs-down"></i> 23</div>
+            <div id="reply-btn">Reply</div>
+            <div class="show-replies">Show Replies(2)</div>
+          </div>
+        </div>
+        <div
+          class="comment__container"
+          dataset="first-comment"
+          id="first-reply"
+        >
+          <div class="comment__card">
+            <img class="pfp" src="img/icon.png" alt="" />
+            <h3 class="comment__title" id="u-name">Name</h3>
+            <p class="post-date">30 minutes ago</p>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Voluptatum eaque itaque sit tempora officiis, quisquam atque?
+              Impedit dignissimos error laudantium!
+            </p>
+            <div class="comment__card-footer">
+              <div id="green"><i class="fa-solid fa-thumbs-up"></i> 123</div>
+              <div id="red"><i class="fa-solid fa-thumbs-down"></i> 23</div>
+              <div id="reply-btn">Reply</div>
+              <div class="show-replies">Show Replies(1)</div>
+            </div>
+          </div>
+          <div
+            class="comment__container"
+            dataset="first-reply"
+            id="first-first-reply"
+          >
+            <div class="comment__card">
+              <img class="pfp" src="img/icon.png" alt="" />
+              <h3 class="comment__title" id="u-name">Name</h3>
+              <p class="post-date">30 minutes ago</p>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Voluptatum eaque itaque sit tempora officiis, quisquam atque?
+                Impedit dignissimos error laudantium!
+              </p>
+              <div class="comment__card-footer">
+                <div id="green"><i class="fa-solid fa-thumbs-up"></i> 123</div>
+                <div id="red"><i class="fa-solid fa-thumbs-down"></i> 23</div>
+                <div id="reply-btn">Reply</div>
+                <div class="show-replies">Show Replies(1)</div>
+              </div>
+            </div>
+            <div class="comment__container" dataset="first-first-reply">
+              <div class="comment__card">
+                <img class="pfp" src="img/icon.png" alt="" />
+                <h3 class="comment__title" id="u-name">Name</h3>
+                <p class="post-date">30 minutes ago</p>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Voluptatum eaque itaque sit tempora officiis, quisquam atque?
+                  Impedit dignissimos error laudantium!
+                </p>
+                <div class="comment__card-footer">
+                  <div id="green">
+                    <i class="fa-solid fa-thumbs-up"></i> 123
+                  </div>
+                  <div id="red"><i class="fa-solid fa-thumbs-down"></i> 23</div>
+                  <div id="reply-btn">Reply</div>
+                  <div class="show-replies">Show Replies(0)</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="comment__container" dataset="first-comment">
+          <div class="comment__card">
+            <img class="pfp" src="img/icon.png" alt="" />
+            <h3 class="comment__title" id="u-name">Name</h3>
+            <p class="post-date">30 minutes ago</p>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Voluptatum eaque itaque sit tempora officiis, quisquam atque?
+              Impedit dignissimos error laudantium!
+            </p>
+            <div class="comment__card-footer">
+              <div id="green"><i class="fa-solid fa-thumbs-up"></i> 123</div>
+              <div id="red"><i class="fa-solid fa-thumbs-down"></i> 23</div>
+              <div id="reply-btn">Reply</div>
+              <div class="show-replies">Show Replies (0)</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-------------------------------------------------Replies section Ends here--------------------------------------------------->
+
+    <script src="js/pg6.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 53,
+        grabCursor: true,
+        loop: true,
+        pagination: {
+          el: ".swiper-pagination",
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+  </body>
+</html>
