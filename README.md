@@ -90,3 +90,10 @@
 4. Install (mongoose , dotenv , bcrypt , jsonwebtoken , express-async-handler)
 5. Connect to MongoDB Atlas
 6. use mongo instead of data.ts in apis
+
+## Register User
+
+1. Add register Api
+2. Add register service method
+3. Add register link
+4. Add register Component
