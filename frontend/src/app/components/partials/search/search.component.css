@@ -192,3 +192,95 @@ font-size: 1rem;
   border-radius:.5rem ;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+  nav .search-bar .search .search__input {
+    width: 25rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .search{
+    display: none;
+    width: 0;
+  }
+  nav .search-bar .search .search__input {
+    width: 0;
+  }
+
+  .homepage-heading{
+    bottom: 1rem;
+    font-size: 3.5rem;
+    padding-right: 2rem;
+    font-family: 'Pacifico', cursive;
+
+  }
+
+  .phoneview-p{
+    font-size: 1.5rem;
+    display: block;
+    position: relative;
+    width: 20rem;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+
+  }
+  .search__input {
+    font-size: 1rem !important;
+    opacity: 0;
+    visibility: hidden;
+    width: 0;
+  }
+  .search__btn {
+    display: none !important;
+  }
+
+}
+
+
+@media (max-width: 551px){
+
+  .section-heading h1{
+    font-size: 2.5rem;
+  }
+
+  nav .search-bar .search .search__input {
+    width: 0;
+  }
+  .search{
+    display: none;
+    width: 0;
+  }
+  .homepage-heading{
+  bottom: 1rem;
+  font-size: 3rem;
+  font-family: 'Pacifico', cursive;
+
+}
+
+
+}
+
+@media (max-width: 460px){
+
+  .phoneview-p{
+    font-size: 1.3rem;
+    width: 18rem;
+    }
+}
+

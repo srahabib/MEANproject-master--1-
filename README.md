@@ -97,3 +97,10 @@
 2. Add register service method
 3. Add register link
 4. Add register Component
+
+## Loading!
+
+1. Add Image
+2. Add Component
+3. Add Service
+4. Add Interceptor
