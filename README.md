@@ -104,3 +104,11 @@
 2. Add Component
 3. Add Service
 4. Add Interceptor
+
+## Checkout Page
+
+1. create Order Model
+2. create Checkout Page Component / Add the router
+3. Add User to User Service
+4. Add Cart to Cart Service
+5. Create Order Item List Component
